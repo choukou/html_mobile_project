@@ -2,7 +2,9 @@
 	font-family :  "Hiragino Kaku Gothic Pro", "メイリオ", "ＭＳ Ｐゴシック", "MS PGothic", "Meiryo, ヒラギノ角ゴ Pro W3", Osaka, Arial Black Regular, sans-serif;
 }
 
-
+html {
+/* 	max-height: 9000px */
+}
 body a:hover {
 	text-decoration: none;
 }
@@ -386,15 +388,88 @@ body>div.row {
 
 
 #content2 .block3 {
-	height: 1060px;
+	height: 720px;
 	background-image: url("../images/image11.png");
 	background-repeat: no-repeat;
 	background-position: center top;
-	background-size: contain;
-	background-color: #646464;
+	background-size: cover;
+	background-color: #f2f2f2;
+	transform: skewY(4deg);
+    position: relative;
+    top: -58px;
 }
 
-/*******************end-header*********************************/
+#content2 .block4 {
+	height: 1200px;
+	background-image: url("../images/image12.jpg");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	background-color: #f2f2f2;
+    position: relative;
+    top: -180px;
+    transform: skewY(-2deg);
+    transform-origin: left bottom;
+}
+
+
+#content3 {
+	height: 2660px;
+}
+#content3 .block1 {
+	height: 935px;
+	background-color: #f2f2f2;
+	background-image: url("../images/image17.png");
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	background-size: inherit;
+	position: relative;
+    top: -180px;
+}
+#content3 .block2 {
+	height: 1725px;
+/* 	background-color: #f2f2f2; */
+	background-image: url("../images/image18.png");
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size: cover;
+	position: relative;
+    top: -280px;
+    transform: skewY(3deg);
+    transform-origin: left bottom;
+}
+
+
+
+
+#content4 {
+	height: 1213px;
+	position: relative;
+    top: -280px;
+    background-color: #f2f2f2;
+}
+
+#content4 .block1 {
+	height: 1213px;
+	background-image: url("../images/image20.jpg");
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	background-size: cover;
+	position: relative;
+    top: 280px;
+}
+
+.caution {
+    transform: skewY(-5deg);
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+	background-color: rgba(45, 45, 45, 0.73);
+	text-align: center;
+	position: relative;
+	top: 80px;
+}
+
 
 
 
