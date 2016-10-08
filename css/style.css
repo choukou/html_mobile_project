@@ -20,7 +20,17 @@ h2 {
 	text-align: center;
 	margin-bottom: 30px;
 }
-
+.vertical {
+	display: table;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+.vertical .vertical-mid {
+	display: table-cell;
+	vertical-align: middle;
+}
 .group-vertical {
 	position: relative;
 	display: inline-block;
@@ -47,6 +57,16 @@ ul.list-group>li {
 	background-color: transparent;
 	border: none;
 	text-align: center;
+}
+.row {
+	margin: 0;
+}
+
+ul.list-square {
+	list-style: square;
+}
+ul.list-style-none {
+	list-style: none;
 }
 
 /*******************header*********************************/
@@ -148,11 +168,89 @@ body>div.row {
     left: -50px;
 }
 
+#content1 ul.list-style-red {
+	list-style: square;
+}
+
+#content1 ul.list-style-red {
+	padding-left: 15%;
+}
+#content1 ul.list-style-red>li {
+	color: red;
+	text-align: left;
+}
+#content1 ul.list-style-red>li>span {
+	color: white;
+}
+
+#content1 .block2>div.row:nth-child(2) {
+	height: 440px;
+	margin: 0;
+}
+#content1 .block2>div.row:nth-child(2)>div {
+	height: 100%;
+	padding: 0 20px;
+}
+#content1 .block2>div.row:nth-child(2)>div>div {
+	height: 100%;
+	border-radius: 8px;
+	background-color: rgba(211, 213, 212, 0.71);
+	position: relative;
+	padding: 0;
+	border: none;
+}
+#content1 .block2>div.row:nth-child(2)>div>div>img {
+	margin-top: 30px;
+}
+#content1 .block2>div.row:nth-child(2) .thumbnail .title {
+	position: absolute;
+	top: 40px;
+	height: 100px;
+	background-color: rgba(0, 0, 0, 0.6);
+	width: 100%;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+}
+.thumbnail-mid {
+	height: 35%;
+	text-align: center;
+	color: #b31931;
+	font-size: 33px;
+}
+
+
 #content2 {
 	position: relative;
 	overflow:hidden;
 	height: 4580px;
 }
+.system {
+	color: white;
+	font-size: 60px;
+	font-weight: bold;
+}
+.split {
+	border-bottom: 1px solid #b2b2b2!important;
+}
+
+#content1 .block2 ul {
+	color: white;
+}
+#content1 .block2 ul>li:nth-child(2) >div {
+	padding-left: 10px;
+	padding-right: 0;
+	color: white;
+	font-size: 20px;
+}
+.thumbnail ul.list-style-none {
+	margin-left: 30px;
+}
+.thumbnail ul.list-style-none>li {
+	color: black;
+	font-size: 20px;
+}
+
 #content2 .block1 {
 	position: relative;
 	height: 1150px;
@@ -163,10 +261,10 @@ body>div.row {
 	background-color: #d9d9d9;
 }
 #content2 .block2 {
-	height: 1960px;
+	height: 1560px;
 	background-image: url("../images/image10.png");
 	background-repeat: no-repeat;
-	background-position: center center;
+	background-position: center top;
 	background-size: contain;
 	background-color: #646464;
 }
@@ -191,6 +289,111 @@ body>div.row {
     top: 157px;
 /*     left: -50px; */
 }
+
+#content2 h1 {
+	text-align: center;
+	font-size: 40px;
+	color: #3a3a3a;
+	font-weight: bold;
+	margin-top: 50px;
+
+}
+
+.underline {
+	padding: 10px 50px;
+	border-bottom: 1px solid #2e2e2e;
+}
+.promise-content {
+	margin-top: 100px;
+	width: 60%;
+	height: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(229, 229, 229, 0.66);
+	border-radius: 8px;
+
+}
+.promise-content p {
+	padding: 20px 30px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.pomise-p1 span{
+	color: #b3032a;
+}
+.pomise-p2 span {
+	display: block;
+}
+.pomise-p2 span.promise-mid {
+	color: #b3032a;
+	font-size: 30px;
+}
+
+.tile-why {
+	position: relative;
+	margin-top: 25%;
+	color: white;
+}
+
+.tile-why h1 span {
+	color: white;
+	padding: 0 60px;
+}
+
+.tile-why h3 {
+	text-align: center;
+}
+.why-content {
+	position: relative;
+}
+.why-content .why-bottom {
+	width: 100%;
+	position: absolute;
+	bottom: 5%;
+	height: 30%;
+}
+.why-content .why-bottom>ul {
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 10%;
+}
+.why-content .why-bottom>ul>li {
+	color: white;
+	padding: 5px 0;
+}
+.color-red {
+	color: #ae0421;
+}
+.why2 {
+	margin-top: 30px;
+	color: white;
+	font-size: 25px;
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+/* 	padding: 10px; */
+	font-weight: bold;
+}
+
+.why3 {
+	font-size: 35px;
+	margin-left: 30%;
+	padding: 20px;
+	font-weight: bold;
+}
+
+
+
+#content2 .block3 {
+	height: 1060px;
+	background-image: url("../images/image11.png");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: contain;
+	background-color: #646464;
+}
+
 /*******************end-header*********************************/
 
 

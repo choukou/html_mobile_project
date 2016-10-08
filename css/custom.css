@@ -39,6 +39,18 @@ h2 {
 	margin-bottom: 30px;
 }
 
+.vertical {
+	display: table;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+.vertical .vertical-mid {
+	display: table-cell;
+	vertical-align: middle;
+}
+
 .group-vertical {
 	position: relative;
 	display: inline-block;
