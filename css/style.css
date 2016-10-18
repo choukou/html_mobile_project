@@ -1068,6 +1068,10 @@ li.li-btn{
 	.company-info table {
 		width: 60%;
 	}
+
+	.dot-line {
+		left: 84px;
+	}
 }
 
 @media screen and (max-width: 800px) {
@@ -1134,5 +1138,21 @@ li.li-btn{
 @media screen and (max-width: 480px) {
 	.company-info table {
 		width: 90%;
+	}
+
+	#section1 h1 {
+		font-size: 50px;
+	}
+
+	#section1 h1 .text-gold {
+		font-size: 50px;
+	}
+
+	#section1 h2 {
+		font-size: 40px;
+	}
+
+	#section5 .box-text>div {
+		height: 200px;
 	}
 }
