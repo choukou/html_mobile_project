@@ -952,6 +952,10 @@ li.li-btn{
 
 	#navbar {
 		clear: both;
+		padding: 0;
+	}
+	.navbar-nav {
+		margin: 0;
 	}
 	#navbar ul.nav {
 		width: 100%;
