@@ -60,7 +60,11 @@ input[type=checkbox]{
 .question-container{
 	text-align: center;
 }
-
+#map {
+	height: 450px;
+	width: 650px;
+	margin: auto;
+}
 #circle-question {
 	width: 70px;
 	height: 70px;

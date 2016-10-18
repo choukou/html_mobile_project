@@ -15,7 +15,10 @@
 
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-<script src="js/custom.js?v2"></script>
+<script src="js/custom.js"></script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBs8i3mQQCKmKLcBRwKXyXgxhKFFtk2o5M&callback=initMap">
+</script>
 </head>
 <body>
 	<!--start-header-->
@@ -418,9 +421,10 @@
 					</tbody>
 				</table>
 
-			<div class="row text-center">
-				<img class="map" src="images/image9_sample.png" alt="" />
-			</div>
+				<div class="row text-center">
+<!-- 				<img class="map" src="images/image9_sample.png" alt="" /> -->
+					<div id="map"></div>
+				</div>
 			</div>
 		</div>
 	</div>
