@@ -773,6 +773,10 @@ li.li-btn{
 	border: none!important;
 	word-break: break-all;
 }
+
+.panel-body {
+	min-height: 150px;
+}
 .panel-tile {
 	font-size: 18px;
 	font-weight: bold;
@@ -953,14 +957,6 @@ li.li-btn{
 	}
 	#navbar ul.nav {
 		width: 100%;
-/* 		position: fixed; */
-/* 		z-index: 99; */
-/* 		background-color: white; */
-/* 		top: -8px; */
-/* 		right: 0; */
-/* 		height: 100%; */
-/* 		padding: 10px 20px; */
-/* 		text-align: left; */
 	}
 
 	#navbar ul>li>a {
@@ -1068,6 +1064,10 @@ li.li-btn{
 	.box-msg p {
 		font-size: 14px;
 	}
+
+	.company-info table {
+		width: 60%;
+	}
 }
 
 @media screen and (max-width: 800px) {
@@ -1125,4 +1125,14 @@ li.li-btn{
 		height: auto;
 	}
 
+	.company-info table {
+		width: 80%;
+	}
+
+}
+
+@media screen and (max-width: 480px) {
+	.company-info table {
+		width: 90%;
+	}
 }
