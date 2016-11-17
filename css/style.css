@@ -415,7 +415,7 @@ h2 {
 }
 
 #content11 {
-	height: 1580px;
+	height: 1500px;
 	position: relative;
 	padding-left: 40px;
 	padding-right: 40px;
@@ -430,9 +430,49 @@ h2 {
 }
 
 #content11 .box-content {
-	width: 60%;
+	width: 70%;
 	margin: auto;
 }
+
+#content11 .sub-tile {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+#content11 input.form-control {
+	height: 65px;
+	background-color: #e5e5e5;
+	margin-bottom: 10px;
+	border-radius: 0;
+}
+
+textarea.form-control {
+    height: auto;
+    background-color: #e5e5e5;
+	border-radius: 0;
+}
+#content11 .panel {
+	width: 50%;
+	margin: 80px auto;
+}
+
+#content11 .panel .panel-heading {
+	height: 70px;
+	background-color: black;
+	color: white;
+	line-height: 50px;
+	text-align: center;
+	font-weight: bold;
+}
+
+#content11 .panel .panel-body {
+	text-align: center;
+
+}
+.copyright {
+	padding: 60px 0px;
+}
+
+
 /****************************media************************************/
 
 
